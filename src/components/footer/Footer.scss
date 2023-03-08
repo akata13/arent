@@ -1,0 +1,43 @@
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 10rem;
+    height: 8rem;
+    background-color: #414141;
+    text-align: center;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 0.75rem;
+    align-items: center; 
+    display: flex;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+    } 
+  }
+
+@media screen and (max-width: 991px) {   
+	.footer {
+		padding: 0 2rem;
+	}  
+	.footer .container {
+		padding: 0 0.5rem;
+	}  
+}
+
+@media screen and (max-width: 476px) {
+	.footer {
+		padding: 0 1rem;
+	} 
+}
+
+@media screen and (max-width: 1200px) {  
+	.footer .container {
+    gap: 1rem; 
+	}  
+}
